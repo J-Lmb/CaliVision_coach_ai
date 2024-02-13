@@ -10,6 +10,7 @@ const withPwa = require("next-pwa")({
 
 const nextConfig = withPwa({
   reactStrictMode: true,
+  distDir: "build"
 });
 
 module.exports = nextConfig;
